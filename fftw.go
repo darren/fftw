@@ -4,8 +4,8 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/barnex/fftw/internal/double"
-	"github.com/barnex/fftw/internal/float"
+	"github.com/darren/fftw/internal/double"
+	"github.com/darren/fftw/internal/float"
 )
 
 // Protects planners from concurrent modification.
